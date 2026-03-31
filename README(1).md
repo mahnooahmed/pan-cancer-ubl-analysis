@@ -8,9 +8,9 @@
 
 ## Overview
 
-This repository contains R scripts developed during my Research Assistantship at EaGIL, LUMS, as part of a pan-cancer project mapping the mutational landscape of the **ubiquitin and ubiquitin-like (UBL) pathway** — specifically the information flow from **E1 → E2 → E3 → Ubiquitin → UBLs** — across 28 TCGA cancer types.
+This repository contains R scripts developed during my Research Assistantship at EaGIL, LUMS, as part of a pan-cancer project mapping the mutational landscape of the **ubiquitin and ubiquitin-like (UBL) pathway**, specifically the information flow from **E1 → E2 → E3 → Ubiquitin → UBLs** across 28 TCGA cancer types.
 
-This script (`pan_cancer_oncoprint.R`) processes TCGA mutation data (MAF format) for any UBL gene category — **E1, E2, E3, DUBs**, or others — by setting a single variable at the top of the script. It generates:
+This script (`pan_cancer_oncoprint.R`) processes TCGA mutation data (MAF format) for any UBL gene category, **E1, E2, E3, DUBs**, or others by setting a single variable at the top of the script. It generates:
 - Pan-cancer oncoplots with TMB annotation
 - Gene-level mutation summaries across cancer types
 - Patient-level mutation burden summaries
@@ -119,7 +119,7 @@ source("pan_cancer_oncoprint_E1.R")
 
 If you use or adapt this code, please acknowledge:
 
-> Syeda Mahnoor Ahmed, EaGIL, LUMS (2026). Pan-Cancer UBL Pathway Mutational Landscape Pipeline. GitHub: https://github.com/mahnoorahmed
+> Syeda Mahnoor Ahmed, EaGIL, LUMS (2026). Pan-Cancer UBL Pathway Mutational Landscape Pipeline. GitHub: https://github.com/mahnooahmed
 
 Data sourced from [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/tcga).
 
